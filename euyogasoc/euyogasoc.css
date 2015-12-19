@@ -1,0 +1,47 @@
+body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  
+}
+#banner a {	
+	margin: 3%;
+}
+
+.third,
+.fourth {
+	width:  90%;
+	height: 90%;
+	padding: 10%;
+}
+
+.third>img,
+.fourth>img {
+	width: 100%;
+}
+
+div .first,
+div .second,
+div .third,
+div .fouth {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div .first,
+div .third,
+div .second {
+	width: 10%;
+}
+
+div .second {
+	width: 70%;
+}
+
+h1, h2{
+	font-size: 24px;
+
+}
+
+h1{
+	color: rgb(204, 204, 204);
+}

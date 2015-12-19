@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<BASE href ="C:/Users/Karen/repos/website/euyogasoc/" target="_blank"></BASE>
+    	<link rel="stylesheet" href="./euyogasoc.css" />
+    	<link rel="icon" type="image/x-icon" href='files/favicon.ico' />
+		<title>EUYS</title>
+		<script type="text/coffeescript">
+			classes = ("class"+n+".jpg" for n in [1..20])
+			snow    = ("snow"+n+".jpg" for n in [1..3])
+			lake    = ("lake" +n+".jpg" for n in [1..9])
+			images  = classes + snow + lake
+			console.log(images)
+			for image in images
+				document.getElementById("gallery").innerHTML = "<img src='/files/'+image></img>"
+
+		</script>
+	</head>
+
+	<body>
+	<center>
+		<div id="banner" width="100%" height="15%">
+			
+				<img src="./files/banner.png" width="100%" height ="15%" alt="" class="custom-header"> 
+				<p width= "100%"><a href="./">Home</a>|<a href= "./join">Join</a>|<a href="./constitution">Constitution</a>|<a href="/timetable">Timetable</a>|<a href="./Commitee">Commitee</a>|<a href="./yoga-schools">Other Yoga Schools</a>|<a href="./faq">F.A.Q</a></p>
+		    
+		</div>
+
+		<table id="layout" width="100%" height="100%" scrolling="no">
+			<tr>
+				<td>
+					<a href="https://www.facebook.com/EUYOGASOC">Like us on Facebook!</br>
+					<img src="./files/facebook.png"></a>
+
+				</td>
+				<td>
+
+					<h2>Weekly Summary of the Timetable:</h2>
+<strong>Please click on the name of a yoga class that interests you to see more information about it. Remember, not all classes take place at the Chaplaincy.</strong>
+<table class="yoga_timetable">
+<tbody>
+<tr>
+<th>Day</th>
+<th>Classes</th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Monday</td>
+<td><em><a href="/soulshine-vinyasa-flow">Vinyasa Yoga </a></em>
+with Clare
+09:15-10:30</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td><em><a href="/energetic">Energetic Iyengar</a></em>
+with Jennifer £5
+12:15-13:15
+STARTING 13/10</td>
+<td><em><a href="/yogawithAdam">Yoga</a></em>
+with Adam £2
+17:00 -18:00
+18:00-19:00</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td><em><a href="/vinyasa-power">Vinyasa Power</a>
+with Evelyn £5
+11:45 - 13:00
+and
+13:30 - 14:45</em></td>
+<td><em><a href="/athletic">Athletic Vinyasa</a></em>
+with Eleanor £2
+17:00-18:00</td>
+<td><em><a href="/Iyengar"> Iyengar</a></em>
+with Jennifer £2
+18:00-19:00</td>
+<td><em><a href="/soulshine-vinyasa-flow">Vinyasa Yoga </a></em>
+with Clare
+09:15-10:30</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td><em><em><a href="/kundalini"><em>Kundalini Yoga</em></a>
+with Maggie Donation
+13:00 -14:00</em></em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Friday</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td><em><a href="/soulshine-vinyasa-flow">Vinyasa Yoga </a></em>
+with Clare
+10:00-11:15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td><em><a href="/restorative">Restorative flow</a>
+with Rhian £2
+17:00 - 18:00</em></td>
+<td><em><a href="/candlit-flow">Candlelit Flow</a>
+with Emanuela £2
+18:00 - 19:00</em></td>
+<td><em><a href="/vinyasa"> Vinyasa </a>
+with Helen Gillespie £5
+18:30 - 19:30</em></td>
+</tr>
+</tbody>
+</table>
+<h2>Workshops:</h2>
+We run a variety of workshops throughout the year to introduce our members to different yogic traditions. Besides this, we offer a wide array of workshops in closely related areas like massage and meditation. For upcoming events please see our <a href="https://www.facebook.com/EUYOGASOC"> Facebook page!</a>
+<h2>Other Classes:</h2>
+Your membership gets you 15% discount at Meadowlark Yoga (membership card OR email confirmation must be shown). See their website for more details on their wide range of classes, workshops, and events: http://www.meadowlarkyoga.com/
+
+Andrea, a former teacher of ours, has great offers for EUYS members in the coming year. Ranging from gentle yoga to Yoga Nidra, <a href="http://wp.me/P3Yyzc-7J">click here for more information.</a>
+<h2>Class Descriptions:</h2>
+<a href="/allclasses">Click Here</a>
+
+				</td>
+
+				<td id ="gallery1">
+
+					<img src="files/class1.jpg">  </br>
+					<img src="files/snow1.jpg">   </br>
+					<img src="files/class2.jpg">  </br>
+					<img src="files/class3.jpg">  </br>
+				</td>
+				<td id="gallery2">
+					<img src="files/lake3.jpg">  </br>
+					<img src="files/lake2.jpg">  </br>
+					<img src="files/class4.jpg"> </br>
+					<img src="files/lake1.jpg"> </br>
+				</td>
+
+			</tr>
+		</table>
+
+		</center>
+	</body>
+
+
+</html>
