@@ -1,11 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>EUYogaSoc</title>
-    <script>console.log('woah');</script>
-  </head>
-  <body>
-    <h1>EU Yoga Soc</h1>
-    {{content}}
-  </body>
+<!-- Basically a layout for euyogasoc pages. -->
+
+	<head>
+		<BASE href ="C:/Users/Karen/repos/euyogasoc/" target="_blank"></BASE>
+    	<link rel="stylesheet" href="euyogasoc.css" />
+    	<link rel="shortcut icon" type="image/x-icon" href='files/favicon.ico' />
+		<title>EUYS</title>
+		<script type="text/coffeescript">
+			classes = ("class"+n+".jpg" for n in [1..20])
+			snow    = ("snow"+n+".jpg" for n in [1..3])
+			lake    = ("lake" +n+".jpg" for n in [1..9])
+			images  = classes + snow + lake
+			console.log(images)
+			for image in images
+				document.getElementById("gallery").innerHTML = "<img src='./files/'+image></img>"
+
+		</script>
+		<script>console.log('woah');</script>
+ </head>
+
+ <body>
+    <center>
+        <div id="banner" width="100%" height="15%">
+				<img src="files/banner.png" width="100%" height ="15%" alt="" class="custom-header"> 
+				<p width= "100%"><a href="./">Home</a>|<a href= "join">Join</a>|<a href="./constitution">Constitution</a>|<a href="./timetable">Timetable</a>|<a href="./Commitee">Commitee</a>|<a href="./yoga-schools">Other Yoga Schools</a>|<a href="./faq">F.A.Q</a></p>	    
+        </div>
+    </center>
+  <div>
+
+    <div class="first">
+      <a href="https://www.facebook.com/EUYOGASOC">Like us on Facebook!<br />
+      <img src="files/facebook.png" /></a>
+    </div>
+
+    <div class="second">
+
+	{{content}}
+
+    </div>
+
+    <div class="third">
+	  <img src="files/class1.jpg" /><br />
+	  <img src="files/snow1.jpg" /><br />
+	  <img src="files/class2.jpg" /><br />
+	  <img src="files/class3.jpg" /><br />
+    </div>
+
+	    <div class="fourth">
+	      <img src="files/lake3.jpg" /><br />
+	      <img src="files/lake2.jpg" /><br />
+	      <img src="files/class4.jpg" /><br />
+	      <img src="files/lake1.jpg" /><br />
+		</div>  
+	  </div>
+</body>
 </html>
